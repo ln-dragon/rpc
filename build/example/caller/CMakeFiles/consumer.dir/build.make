@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dragon/mprpc/rpc
+CMAKE_SOURCE_DIR = /home/dragon/rpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dragon/mprpc/rpc/build
+CMAKE_BINARY_DIR = /home/dragon/rpc/build
 
 # Include any dependencies generated for this target.
 include example/caller/CMakeFiles/consumer.dir/depend.make
@@ -59,16 +59,16 @@ include example/caller/CMakeFiles/consumer.dir/flags.make
 
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: example/caller/CMakeFiles/consumer.dir/flags.make
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: ../example/caller/callfriendservice.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dragon/mprpc/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o"
-	cd /home/dragon/mprpc/rpc/build/example/caller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/consumer.dir/callfriendservice.cc.o -c /home/dragon/mprpc/rpc/example/caller/callfriendservice.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dragon/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o"
+	cd /home/dragon/rpc/build/example/caller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/consumer.dir/callfriendservice.cc.o -c /home/dragon/rpc/example/caller/callfriendservice.cc
 
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/consumer.dir/callfriendservice.cc.i"
-	cd /home/dragon/mprpc/rpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dragon/mprpc/rpc/example/caller/callfriendservice.cc > CMakeFiles/consumer.dir/callfriendservice.cc.i
+	cd /home/dragon/rpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dragon/rpc/example/caller/callfriendservice.cc > CMakeFiles/consumer.dir/callfriendservice.cc.i
 
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/consumer.dir/callfriendservice.cc.s"
-	cd /home/dragon/mprpc/rpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dragon/mprpc/rpc/example/caller/callfriendservice.cc -o CMakeFiles/consumer.dir/callfriendservice.cc.s
+	cd /home/dragon/rpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dragon/rpc/example/caller/callfriendservice.cc -o CMakeFiles/consumer.dir/callfriendservice.cc.s
 
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o.requires:
 
@@ -83,16 +83,16 @@ example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o.provides.build: ex
 
 example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o: example/caller/CMakeFiles/consumer.dir/flags.make
 example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o: ../example/friend.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dragon/mprpc/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o"
-	cd /home/dragon/mprpc/rpc/build/example/caller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/consumer.dir/__/friend.pb.cc.o -c /home/dragon/mprpc/rpc/example/friend.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dragon/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o"
+	cd /home/dragon/rpc/build/example/caller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/consumer.dir/__/friend.pb.cc.o -c /home/dragon/rpc/example/friend.pb.cc
 
 example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/consumer.dir/__/friend.pb.cc.i"
-	cd /home/dragon/mprpc/rpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dragon/mprpc/rpc/example/friend.pb.cc > CMakeFiles/consumer.dir/__/friend.pb.cc.i
+	cd /home/dragon/rpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dragon/rpc/example/friend.pb.cc > CMakeFiles/consumer.dir/__/friend.pb.cc.i
 
 example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/consumer.dir/__/friend.pb.cc.s"
-	cd /home/dragon/mprpc/rpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dragon/mprpc/rpc/example/friend.pb.cc -o CMakeFiles/consumer.dir/__/friend.pb.cc.s
+	cd /home/dragon/rpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dragon/rpc/example/friend.pb.cc -o CMakeFiles/consumer.dir/__/friend.pb.cc.s
 
 example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o.requires:
 
@@ -119,8 +119,8 @@ consumer_EXTERNAL_OBJECTS =
 ../bin/consumer: ../lib/libmprpc.a
 ../bin/consumer: /usr/local/lib/libprotobuf.so
 ../bin/consumer: example/caller/CMakeFiles/consumer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dragon/mprpc/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../bin/consumer"
-	cd /home/dragon/mprpc/rpc/build/example/caller && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/consumer.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dragon/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../bin/consumer"
+	cd /home/dragon/rpc/build/example/caller && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/consumer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 example/caller/CMakeFiles/consumer.dir/build: ../bin/consumer
@@ -133,10 +133,10 @@ example/caller/CMakeFiles/consumer.dir/requires: example/caller/CMakeFiles/consu
 .PHONY : example/caller/CMakeFiles/consumer.dir/requires
 
 example/caller/CMakeFiles/consumer.dir/clean:
-	cd /home/dragon/mprpc/rpc/build/example/caller && $(CMAKE_COMMAND) -P CMakeFiles/consumer.dir/cmake_clean.cmake
+	cd /home/dragon/rpc/build/example/caller && $(CMAKE_COMMAND) -P CMakeFiles/consumer.dir/cmake_clean.cmake
 .PHONY : example/caller/CMakeFiles/consumer.dir/clean
 
 example/caller/CMakeFiles/consumer.dir/depend:
-	cd /home/dragon/mprpc/rpc/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dragon/mprpc/rpc /home/dragon/mprpc/rpc/example/caller /home/dragon/mprpc/rpc/build /home/dragon/mprpc/rpc/build/example/caller /home/dragon/mprpc/rpc/build/example/caller/CMakeFiles/consumer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dragon/rpc/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dragon/rpc /home/dragon/rpc/example/caller /home/dragon/rpc/build /home/dragon/rpc/build/example/caller /home/dragon/rpc/build/example/caller/CMakeFiles/consumer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : example/caller/CMakeFiles/consumer.dir/depend
 

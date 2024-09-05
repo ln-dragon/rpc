@@ -1,4 +1,4 @@
-# Install script for directory: /home/dragon/mprpc/rpc/example/callee
+# Install script for directory: /home/dragon/rpc/example/callee
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

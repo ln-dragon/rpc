@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/dragon/mprpc/rpc/src/include -I/home/dragon/mprpc/rpc/example 
+CXX_INCLUDES = -I/home/dragon/rpc/src/include -I/home/dragon/rpc/example 
 

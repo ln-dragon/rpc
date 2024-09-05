@@ -78,17 +78,17 @@ zookeeper/zookeeper.h
 string
 -
 
-/home/dragon/mprpc/rpc/src/logger.cc
+/home/dragon/rpc/src/logger.cc
 logger.h
-/home/dragon/mprpc/rpc/src/logger.h
+/home/dragon/rpc/src/logger.h
 time.h
 -
 iostream
 -
 
-/home/dragon/mprpc/rpc/src/mprpcapplication.cc
+/home/dragon/rpc/src/mprpcapplication.cc
 mprpcapplication.h
-/home/dragon/mprpc/rpc/src/mprpcapplication.h
+/home/dragon/rpc/src/mprpcapplication.h
 iostream
 -
 unistd.h
@@ -96,13 +96,13 @@ unistd.h
 string
 -
 
-/home/dragon/mprpc/rpc/src/mprpcchannel.cc
+/home/dragon/rpc/src/mprpcchannel.cc
 mprpcchannel.h
-/home/dragon/mprpc/rpc/src/mprpcchannel.h
+/home/dragon/rpc/src/mprpcchannel.h
 string
 -
 rpcheader.pb.h
-/home/dragon/mprpc/rpc/src/rpcheader.pb.h
+/home/dragon/rpc/src/rpcheader.pb.h
 sys/types.h
 -
 sys/socket.h
@@ -116,27 +116,27 @@ unistd.h
 errno.h
 -
 mprpcapplication.h
-/home/dragon/mprpc/rpc/src/mprpcapplication.h
+/home/dragon/rpc/src/mprpcapplication.h
 mprpccontroller.h
-/home/dragon/mprpc/rpc/src/mprpccontroller.h
+/home/dragon/rpc/src/mprpccontroller.h
 zookeeperutil.h
-/home/dragon/mprpc/rpc/src/zookeeperutil.h
+/home/dragon/rpc/src/zookeeperutil.h
 
-/home/dragon/mprpc/rpc/src/mprpcconfig.cc
+/home/dragon/rpc/src/mprpcconfig.cc
 mprpcconfig.h
-/home/dragon/mprpc/rpc/src/mprpcconfig.h
+/home/dragon/rpc/src/mprpcconfig.h
 iostream
 -
 string
 -
 
-/home/dragon/mprpc/rpc/src/mprpccontroller.cc
+/home/dragon/rpc/src/mprpccontroller.cc
 mprpccontroller.h
-/home/dragon/mprpc/rpc/src/mprpccontroller.h
+/home/dragon/rpc/src/mprpccontroller.h
 
-/home/dragon/mprpc/rpc/src/rpcheader.pb.cc
+/home/dragon/rpc/src/rpcheader.pb.cc
 rpcheader.pb.h
-/home/dragon/mprpc/rpc/src/rpcheader.pb.h
+/home/dragon/rpc/src/rpcheader.pb.h
 algorithm
 -
 google/protobuf/io/coded_stream.h
@@ -158,7 +158,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/dragon/mprpc/rpc/src/rpcheader.pb.h
+/home/dragon/rpc/src/rpcheader.pb.h
 limits
 -
 string
@@ -196,23 +196,23 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/dragon/mprpc/rpc/src/rpcprovider.cc
+/home/dragon/rpc/src/rpcprovider.cc
 rpcprovider.h
-/home/dragon/mprpc/rpc/src/rpcprovider.h
+/home/dragon/rpc/src/rpcprovider.h
 mprpcapplication.h
-/home/dragon/mprpc/rpc/src/mprpcapplication.h
+/home/dragon/rpc/src/mprpcapplication.h
 rpcheader.pb.h
-/home/dragon/mprpc/rpc/src/rpcheader.pb.h
+/home/dragon/rpc/src/rpcheader.pb.h
 logger.h
-/home/dragon/mprpc/rpc/src/logger.h
+/home/dragon/rpc/src/logger.h
 zookeeperutil.h
-/home/dragon/mprpc/rpc/src/zookeeperutil.h
+/home/dragon/rpc/src/zookeeperutil.h
 
-/home/dragon/mprpc/rpc/src/zookeeperutil.cc
+/home/dragon/rpc/src/zookeeperutil.cc
 zookeeperutil.h
-/home/dragon/mprpc/rpc/src/zookeeperutil.h
+/home/dragon/rpc/src/zookeeperutil.h
 mprpcapplication.h
-/home/dragon/mprpc/rpc/src/mprpcapplication.h
+/home/dragon/rpc/src/mprpcapplication.h
 semaphore.h
 -
 iostream

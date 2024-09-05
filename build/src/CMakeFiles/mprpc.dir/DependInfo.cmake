@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dragon/mprpc/rpc/src/logger.cc" "/home/dragon/mprpc/rpc/build/src/CMakeFiles/mprpc.dir/logger.cc.o"
-  "/home/dragon/mprpc/rpc/src/mprpcapplication.cc" "/home/dragon/mprpc/rpc/build/src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o"
-  "/home/dragon/mprpc/rpc/src/mprpcchannel.cc" "/home/dragon/mprpc/rpc/build/src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o"
-  "/home/dragon/mprpc/rpc/src/mprpcconfig.cc" "/home/dragon/mprpc/rpc/build/src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o"
-  "/home/dragon/mprpc/rpc/src/mprpccontroller.cc" "/home/dragon/mprpc/rpc/build/src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o"
-  "/home/dragon/mprpc/rpc/src/rpcheader.pb.cc" "/home/dragon/mprpc/rpc/build/src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o"
-  "/home/dragon/mprpc/rpc/src/rpcprovider.cc" "/home/dragon/mprpc/rpc/build/src/CMakeFiles/mprpc.dir/rpcprovider.cc.o"
-  "/home/dragon/mprpc/rpc/src/zookeeperutil.cc" "/home/dragon/mprpc/rpc/build/src/CMakeFiles/mprpc.dir/zookeeperutil.cc.o"
+  "/home/dragon/rpc/src/logger.cc" "/home/dragon/rpc/build/src/CMakeFiles/mprpc.dir/logger.cc.o"
+  "/home/dragon/rpc/src/mprpcapplication.cc" "/home/dragon/rpc/build/src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o"
+  "/home/dragon/rpc/src/mprpcchannel.cc" "/home/dragon/rpc/build/src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o"
+  "/home/dragon/rpc/src/mprpcconfig.cc" "/home/dragon/rpc/build/src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o"
+  "/home/dragon/rpc/src/mprpccontroller.cc" "/home/dragon/rpc/build/src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o"
+  "/home/dragon/rpc/src/rpcheader.pb.cc" "/home/dragon/rpc/build/src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o"
+  "/home/dragon/rpc/src/rpcprovider.cc" "/home/dragon/rpc/build/src/CMakeFiles/mprpc.dir/rpcprovider.cc.o"
+  "/home/dragon/rpc/src/zookeeperutil.cc" "/home/dragon/rpc/build/src/CMakeFiles/mprpc.dir/zookeeperutil.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
